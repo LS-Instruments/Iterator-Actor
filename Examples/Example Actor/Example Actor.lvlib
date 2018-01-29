@@ -6,13 +6,11 @@
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Pre Iterate Msg.lvclass" Type="LVClass" URL="../Example Actor Messages/Pre Iterate Msg/Pre Iterate Msg.lvclass"/>
-		<Item Name="Iterate Msg.lvclass" Type="LVClass" URL="../Example Actor Messages/Iterate Msg/Iterate Msg.lvclass"/>
-		<Item Name="Post Iterate Msg.lvclass" Type="LVClass" URL="../Example Actor Messages/Post Iterate Msg/Post Iterate Msg.lvclass"/>
 		<Item Name="Write Ready for iterations Msg.lvclass" Type="LVClass" URL="../Example Actor Messages/Write Ready for iterations Msg/Write Ready for iterations Msg.lvclass"/>
 		<Item Name="Pre Iterate Reply Msg.lvclass" Type="LVClass" URL="../Example Actor Messages/Pre Iterate Reply Msg/Pre Iterate Reply Msg.lvclass"/>
 		<Item Name="Iterate Reply Msg.lvclass" Type="LVClass" URL="../Example Actor Messages/Iterate Reply Msg/Iterate Reply Msg.lvclass"/>
 		<Item Name="Post Iterate Reply Msg.lvclass" Type="LVClass" URL="../Example Actor Messages/Post Iterate Reply Msg/Post Iterate Reply Msg.lvclass"/>
+		<Item Name="Update Error Msg.lvclass" Type="LVClass" URL="../Example Actor Messages/Update Error Msg/Update Error Msg.lvclass"/>
 	</Item>
 	<Item Name="Example Actor.lvclass" Type="LVClass" URL="../Example Actor/Example Actor.lvclass"/>
 </Library>

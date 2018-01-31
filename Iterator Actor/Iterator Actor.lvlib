@@ -4,13 +4,14 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Abstract Messages for this Actor" Type="Folder">
-		<Item Name="Iterator Reply Msg.lvclass" Type="LVClass" URL="../Iterator Actor Messages/Iterator Reply Msg/Iterator Reply Msg.lvclass"/>
-		<Item Name="Iterator Report Error Msg.lvclass" Type="LVClass" URL="../Iterator Actor Messages/Iterator Report Error Msg/Iterator Report Error Msg.lvclass"/>
+		<Item Name="Iterator Reply Msg.lvclass" Type="LVClass" URL="../Iterator Actor Abstract Messages/Iterator Reply Msg/Iterator Reply Msg.lvclass"/>
+		<Item Name="Iterator Report Error Msg.lvclass" Type="LVClass" URL="../Iterator Actor Abstract Messages/Iterator Report Error Msg/Iterator Report Error Msg.lvclass"/>
 	</Item>
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Stop Iterate Msg.lvclass" Type="LVClass" URL="../Iterator Actor Messages/Stop Iterate Msg/Stop Iterate Msg.lvclass"/>
-		<Item Name="Configure Msg.lvclass" Type="LVClass" URL="../Iterator Actor Messages/Configure Msg/Configure Msg.lvclass"/>
+		<Item Name="Write Settings Msg.lvclass" Type="LVClass" URL="../Iterator Actor Messages/Write Settings Msg/Write Settings Msg.lvclass"/>
+		<Item Name="Start Iterations Msg.lvclass" Type="LVClass" URL="../Iterator Actor Messages/Start Iterations Msg/Start Iterations Msg.lvclass"/>
+		<Item Name="Stop Iterations Msg.lvclass" Type="LVClass" URL="../Iterator Actor Messages/Stop Iterations Msg/Stop Iterations Msg.lvclass"/>
 	</Item>
 	<Item Name="Iterator Actor.lvclass" Type="LVClass" URL="../Iterator Actor/Iterator Actor.lvclass"/>
 </Library>

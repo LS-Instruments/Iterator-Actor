@@ -12,6 +12,7 @@
 		<Item Name="Write Settings Msg.lvclass" Type="LVClass" URL="../Iterator Actor Messages/Write Settings Msg/Write Settings Msg.lvclass"/>
 		<Item Name="Start Iterations Msg.lvclass" Type="LVClass" URL="../Iterator Actor Messages/Start Iterations Msg/Start Iterations Msg.lvclass"/>
 		<Item Name="Stop Iterations Msg.lvclass" Type="LVClass" URL="../Iterator Actor Messages/Stop Iterations Msg/Stop Iterations Msg.lvclass"/>
+		<Item Name="Report Errors Msg.lvclass" Type="LVClass" URL="../Iterator Actor Messages/Report Errors Msg/Report Errors Msg.lvclass"/>
 	</Item>
 	<Item Name="Iterator Actor.lvclass" Type="LVClass" URL="../Iterator Actor/Iterator Actor.lvclass"/>
 </Library>

@@ -1,0 +1,3 @@
+Iterator Actor v2.0.0
+-we now define better the reason for the stop and return it
+-we now define the stop conditions as cluster of Boolean instead of an enum. this allows us to stop fro multiple conditions (to be implemented)

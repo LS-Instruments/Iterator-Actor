@@ -1,3 +1,7 @@
-Iterator Actor v2.0.0
--we now define better the reason for the stop and return it
--we now define the stop conditions as cluster of Boolean instead of an enum. this allows us to stop fro multiple conditions (to be implemented)
+Iterator Actor 
+v2.1.0
+- solved a bug whereby if the iteration would last more than the iteration period the Stop Reason would be erroneously reported as "Stopped Externally"
+- completely refactored the code to introduce an alternative method to acknowledge the completion of one iteration. Now we have an abstract iterator implementing the base functionality, then the "Iterator Actor" implements the standard method whereby we use messages with a reply. The other concrete class "Iterator Actor NG" requires the caller to explicitly send an "Notify Iteration" message to notify the Iterator that the iteration is complete. This operation can then be automated by creating iteration messages as subclasses of the "Abstract Iteration Message" thus resulting into a functioning similar to that of the iteration actor but without the mechanism of a message with a reply. On the other hand if we use just normal caller messages the user will have to explicitly send a "Notify Iteration" message to move to the next iteration
+v2.0.0
+- we now define better the reason for the stop and return it
+- we now define the stop conditions as cluster of Boolean instead of an enum. this allows us to stop fro multiple conditions (to be implemented)

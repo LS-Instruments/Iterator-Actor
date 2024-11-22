@@ -18,6 +18,7 @@
 		<Item Name="Iterator NR Actor" Type="Folder">
 			<Item Name="Notify Iteration Msg.lvclass" Type="LVClass" URL="../../Iterator NR Actor/Iterator NR Actor Messages/Notify Iteration Msg/Notify Iteration Msg.lvclass"/>
 			<Item Name="Request Iteration Notification Msg.lvclass" Type="LVClass" URL="../../Iterator NR Actor/Iterator NR Actor Messages/Request Iteration Notification Msg/Request Iteration Notification Msg.lvclass"/>
+			<Item Name="Break Msg.lvclass" Type="LVClass" URL="../../Iterator NR Actor/Iterator NR Actor Messages/Break Msg/Break Msg.lvclass"/>
 		</Item>
 		<Item Name="Write Settings Msg.lvclass" Type="LVClass" URL="../Iterator Actor Messages/Write Settings Msg/Write Settings Msg.lvclass"/>
 		<Item Name="Start Iterations Msg.lvclass" Type="LVClass" URL="../Iterator Actor Messages/Start Iterations Msg/Start Iterations Msg.lvclass"/>

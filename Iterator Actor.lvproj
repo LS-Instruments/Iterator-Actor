@@ -27,6 +27,7 @@
 			<Item Name="Async Methods Actor Example.lvlib" Type="Library" URL="../../../Program Files/National Instruments/LabVIEW 2023/examples/LS Instruments AG/Async Methods Actor/Async Methods Actor Example/Async Methods Actor Example.lvlib"/>
 			<Item Name="Async Methods Actor.lvlib" Type="Library" URL="/&lt;vilib&gt;/LS Instruments AG/Async Methods Actor/Async Methods Actor/Async Methods Actor.lvlib"/>
 		</Item>
+		<Item Name="VIPM" Type="Folder"/>
 		<Item Name="Iterator Actor.lvlib" Type="Library" URL="../Iterator Actor/Iterator Actor.lvlib"/>
 		<Item Name="Release Notes.txt" Type="Document" URL="../Release Notes.txt"/>
 		<Item Name="Dependencies" Type="Dependencies">

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+Custom error codes defined by the "Iterator Actor" library.
+<nifamily familyname="Iterator Actor" displayname="Iterator Actor">
+</nifamily>
+</nicomment>
+<nierror code="7900">
+Input parameters are not valid.
+</nierror>
+<nierror code="7901">
+Preparation call timed out.
+</nierror>
+<nierror code="7902">
+Iteration call timed out.
+</nierror>
+<nierror code="7903">
+Conclusion call timed out.
+</nierror>
+</nidocument>

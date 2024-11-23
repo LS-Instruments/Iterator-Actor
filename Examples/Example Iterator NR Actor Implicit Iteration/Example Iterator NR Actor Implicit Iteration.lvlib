@@ -7,6 +7,7 @@
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Write Ready for iterations Msg.lvclass" Type="LVClass" URL="../Example Actor Messages/Write Ready for iterations Msg/Write Ready for iterations Msg.lvclass"/>
 		<Item Name="Pre Iteration Msg.lvclass" Type="LVClass" URL="../Example Actor Messages/Pre Iterate Reply Msg/Pre Iteration Msg.lvclass"/>
 		<Item Name="Iteration Msg.lvclass" Type="LVClass" URL="../Example Actor Messages/Iterate Reply Msg/Iteration Msg.lvclass"/>
 		<Item Name="Post Iteration Msg.lvclass" Type="LVClass" URL="../Example Actor Messages/Post Iterate Reply Msg/Post Iteration Msg.lvclass"/>

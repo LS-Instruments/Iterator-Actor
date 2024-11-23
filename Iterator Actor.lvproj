@@ -20,14 +20,17 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Example Actor.lvlib" Type="Library" URL="../Examples/Example Actor/Example Actor.lvlib"/>
 			<Item Name="Example Iterator NR Actor Explicit Iteration.lvlib" Type="Library" URL="../Examples/Example Iterator NR Actor Explicit Iteration/Example Iterator NR Actor Explicit Iteration.lvlib"/>
+			<Item Name="Example Iterator NR Actor Implicit Iteration.lvlib" Type="Library" URL="../Examples/Example Iterator NR Actor Implicit Iteration/Example Iterator NR Actor Implicit Iteration.lvlib"/>
 			<Item Name="Example Iterator NR Actor.lvlib" Type="Library" URL="../Examples/Example Iterator NR Actor/Example Iterator NR Actor.lvlib"/>
-			<Item Name="Example Iterator NR Actor Auto Iteration Notification.lvlib" Type="Library" URL="../Examples/Example Iterator NR Actor Auto Iteration Notification/Example Iterator NR Actor Auto Iteration Notification.lvlib"/>
 		</Item>
 		<Item Name="libs" Type="Folder">
 			<Item Name="Async Methods Actor Example.lvlib" Type="Library" URL="../../../Program Files/National Instruments/LabVIEW 2023/examples/LS Instruments AG/Async Methods Actor/Async Methods Actor Example/Async Methods Actor Example.lvlib"/>
 			<Item Name="Async Methods Actor.lvlib" Type="Library" URL="/&lt;vilib&gt;/LS Instruments AG/Async Methods Actor/Async Methods Actor/Async Methods Actor.lvlib"/>
 		</Item>
-		<Item Name="VIPM" Type="Folder"/>
+		<Item Name="VIPM" Type="Folder">
+			<Item Name="Iterator Actor.vipb" Type="Document" URL="../VIPM/Iterator Actor.vipb"/>
+			<Item Name="Iterator Actor.vipc" Type="Document" URL="../VIPM/Iterator Actor.vipc"/>
+		</Item>
 		<Item Name="Install Error Codes.vi" Type="VI" URL="../Install Error Codes.vi"/>
 		<Item Name="Iterator Actor.lvlib" Type="Library" URL="../Iterator Actor/Iterator Actor.lvlib"/>
 		<Item Name="Iterator-Actor-errors.txt" Type="Document" URL="../Iterator-Actor-errors.txt"/>

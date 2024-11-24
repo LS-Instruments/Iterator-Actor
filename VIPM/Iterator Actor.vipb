@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-11-23 17:34:29" Modified_Date="2024-11-24 16:59:10" Creator="AndreaVaccaro(LSInst" Comments="" ID="6c8f850186a102c3b4079389099c700a">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-11-23 17:34:29" Modified_Date="2024-11-24 17:25:30" Creator="AndreaVaccaro(LSInst" Comments="" ID="748c92be978bc1f652eeab8d1d6df302">
   <Library_General_Settings>
     <Package_File_Name>LS_Instruments_AG_lib_Iterator_Actor</Package_File_Name>
-    <Library_Version>1.0.0.6</Library_Version>
+    <Library_Version>1.0.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -346,7 +346,7 @@
         <Path>..\Iterator Actor Palette\Open Examples.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2F74B72F95BE8D418B9D3EA22178747A</GUID>
+      <GUID>DAC7976D8D1C7554BB06E5F9A2936CD0</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -437,7 +437,7 @@
         <Path>..\Iterator Actor Palette\Iterator Report Iterations End Msg.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9E6569A84EC2C2D55230F6D87833A327</GUID>
+      <GUID>94B279649D3C2F412F2A2C515D570ECE</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

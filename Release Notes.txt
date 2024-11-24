@@ -1,13 +1,13 @@
 Iterator Actor
-v2.2.0
+v1.0.0
 - The Iterator Actor now inherits from Async Actors, this allows removing the Actor Core method and all the event refnums used to communicate with it and replacing it with an Async method that will send the iteration commands. The "Start Iteration" method then just starts such Async method (Closes #1)
 - Added an internal flag, called "Iterating" indicating that the iterator is running. If the flag is true and we start an iteration we should do nothing. If we try to stop an Iterator that is not running we should do nothing. See #2
 - Implemented the "Automatic Iteration Notification" feature #6. Now by setting the "Auto Iteration Notification" property flag to true the user can use standard Actor Framework messages to define the iteration steps without the need to notify the Iterator their completion: the iterator will transparently acknowledge the completion. The removal of the requirement for an explicit iteration completion notification, which allows the user to internally stop the iterations, required the implementation of a Break method. The Break method, which works only only when "Auto Iteration Notification"is activated, will stop the iterator if the "Active Stop Conditions" "Iteration Result" is set to true and will trigger the "Stopped Internally" "Stop Reason".
 - Refactored error generation: switch to the standard method of defining errors (XML file) (Closes #3)
 - Solved a bug whereby timeout on second execution without restarting the iterator would not be caught for the Prepare and Conclude iterations (Closes #8)
-v2.1.0
+v0.9.0
 - solved a bug whereby if the iteration would last more than the iteration period the Stop Reason would be erroneously reported as "Stopped Externally"
 - completely refactored the code to introduce an alternative method to acknowledge the completion of one iteration. Now we have an abstract iterator implementing the base functionality, then the "Iterator Actor" implements the standard method whereby we use messages with a reply. The other concrete class "Iterator Actor NG" requires the caller to explicitly send an "Notify Iteration" message to notify the Iterator that the iteration is complete. This operation can then be automated by creating iteration messages as subclasses of the "Abstract Iteration Message" thus resulting into a functioning similar to that of the iteration actor but without the mechanism of a message with a reply. On the other hand if we use just normal caller messages the user will have to explicitly send a "Notify Iteration" message to move to the next iteration
-v2.0.0
+v0.8.0
 - we now define better the reason for the stop and return it
 - we now define the stop conditions as cluster of Boolean instead of an enum. this allows us to stop fro multiple conditions (to be implemented)

@@ -2,6 +2,7 @@
 <Project Type="Project" LVVersion="23008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
+	<Property Name="NI.Project.SaveVersion" Type="Str">Editor version</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -17,27 +18,34 @@
 		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Launcher.vi" Type="VI" URL="../Examples/Launcher.vi"/>
 			<Item Name="Example Actor.lvlib" Type="Library" URL="../Examples/Example Actor/Example Actor.lvlib"/>
-			<Item Name="Launcher NR Explicit Iteration.vi" Type="VI" URL="../Examples/Launcher NR Explicit Iteration.vi"/>
 			<Item Name="Example Iterator NR Actor Explicit Iteration.lvlib" Type="Library" URL="../Examples/Example Iterator NR Actor Explicit Iteration/Example Iterator NR Actor Explicit Iteration.lvlib"/>
-			<Item Name="Launcher NR.vi" Type="VI" URL="../Examples/Launcher NR.vi"/>
+			<Item Name="Example Iterator NR Actor Implicit Iteration.lvlib" Type="Library" URL="../Examples/Example Iterator NR Actor Implicit Iteration/Example Iterator NR Actor Implicit Iteration.lvlib"/>
 			<Item Name="Example Iterator NR Actor.lvlib" Type="Library" URL="../Examples/Example Iterator NR Actor/Example Iterator NR Actor.lvlib"/>
 		</Item>
 		<Item Name="libs" Type="Folder">
 			<Item Name="Async Methods Actor Example.lvlib" Type="Library" URL="../../../Program Files/National Instruments/LabVIEW 2023/examples/LS Instruments AG/Async Methods Actor/Async Methods Actor Example/Async Methods Actor Example.lvlib"/>
 			<Item Name="Async Methods Actor.lvlib" Type="Library" URL="/&lt;vilib&gt;/LS Instruments AG/Async Methods Actor/Async Methods Actor/Async Methods Actor.lvlib"/>
 		</Item>
-		<Item Name="Iterator Actor.lvlib" Type="Library" URL="../Iterator Actor/Iterator Actor.lvlib"/>
+		<Item Name="VIPM" Type="Folder">
+			<Item Name="Iterator Actor.vipb" Type="Document" URL="../VIPM/Iterator Actor.vipb"/>
+			<Item Name="Iterator Actor.vipc" Type="Document" URL="../VIPM/Iterator Actor.vipc"/>
+		</Item>
+		<Item Name="Install Error Codes.vi" Type="VI" URL="../Install Error Codes.vi"/>
+		<Item Name="Iterator Actor.lvlib" Type="Library" URL="../Iterator Actor.lvlib"/>
+		<Item Name="Iterator-Actor-errors.txt" Type="Document" URL="../Iterator-Actor-errors.txt"/>
 		<Item Name="Release Notes.txt" Type="Document" URL="../Release Notes.txt"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
+				<Item Name="MGI Append String to Error Source.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Error Handling/MGI Append String to Error Source.vi"/>
 				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
 				<Item Name="openg_time.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/openg_time.lvlib"/>
 				<Item Name="openg_variant.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/openg_variant.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="Batch Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ActorFramework/Batch Msg/Batch Msg.lvclass"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Casting Utility For Actors.vim" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Actor/Casting Utility For Actors.vim"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
@@ -72,6 +80,7 @@
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Qualified Name Array To Single String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Qualified Name Array To Single String.vi"/>

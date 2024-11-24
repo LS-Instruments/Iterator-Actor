@@ -32,7 +32,7 @@
 			<Item Name="Iterator Actor.vipc" Type="Document" URL="../VIPM/Iterator Actor.vipc"/>
 		</Item>
 		<Item Name="Install Error Codes.vi" Type="VI" URL="../Install Error Codes.vi"/>
-		<Item Name="Iterator Actor.lvlib" Type="Library" URL="../Iterator Actor/Iterator Actor.lvlib"/>
+		<Item Name="Iterator Actor.lvlib" Type="Library" URL="../Iterator Actor.lvlib"/>
 		<Item Name="Iterator-Actor-errors.txt" Type="Document" URL="../Iterator-Actor-errors.txt"/>
 		<Item Name="Release Notes.txt" Type="Document" URL="../Release Notes.txt"/>
 		<Item Name="Dependencies" Type="Dependencies">

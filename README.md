@@ -1,5 +1,7 @@
 # Iterator Actor
 
+[![Image](https://www.vipm.io/package/ls_instruments_ag_lib_iterator_actor/badge.svg?metric=installs)](https://www.vipm.io/package/ls_instruments_ag_lib_iterator_actor/) [![Image](https://www.vipm.io/package/ls_instruments_ag_lib_iterator_actor/badge.svg?metric=stars)](https://www.vipm.io/package/ls_instruments_ag_lib_iterator_actor/)
+
 ## Authors
 Andrea Vaccaro, Albert Adiyatullin  
 LS Instruments AG
@@ -15,6 +17,10 @@ A library implementing a high-level Actor Framework-based Iterator. The caller A
 * Waits on iteration completion and reports an error to caller if the corresponding timeout is exceeded.
 * Prepare and Conclude iterations definable.
 * Multiple iterator end condition definable: number of iterations, time elapsed, iteration result.
+
+## VIPM Package Installation
+
+Install the **Iterator Actor** VIPM Package by means of the VI Package Manager. The VIPM package can be found  <a href="https://www.vipm.io/package/ls_instruments_ag_lib_iterator_actor/" target="_blank">here</a> 
 
 ## Library Walk-Through 
 
@@ -76,4 +82,8 @@ To change the Iterator settings during its execution the user has to send the "W
 Pay attenton that this will overwrite ***all*** the settings.
 ### Stopping the Iterator
 Since the iterator is generally launched by means of the "Launch Nested Actor.vi" AF method with the Auto-Stop condition set to the default TRUE, the iterator will automatically stop when the caller actor stop. If for any particular reason one wants to explicitly stop the Iterator sending the stop message will do so.
+
+## Contributing
+
+Feel free to fork and submit pull requests. After cloning the repository, the best way to install the required dependencies is to install the VIPM pakcage.
  
